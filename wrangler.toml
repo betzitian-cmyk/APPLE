@@ -2,3 +2,5 @@
 name = "app"
 compatibility_date = "2026-04-08"
 routes = ["/*"]
+[assets]
+directory = "./dist"
