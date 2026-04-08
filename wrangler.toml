@@ -1,6 +1,10 @@
-name = "app"
-main = "src/cloudflareWorker.ts"
-compatibility_date = "2024-09-01"
+# Remove this section:
+# [[routes]]
+# pattern = "/*"
 
-[[routes]]
-pattern = "/*"
+# Keep your other config like:
+name = "app"
+compatibility_date = "2026-04-08"
+``*
+routes = ["/*"]
+``*
